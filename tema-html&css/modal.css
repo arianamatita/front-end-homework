@@ -1,0 +1,115 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 750px;
+    margin: 0 auto;
+    fill: #FFFFFF;
+    border: 1px solid #9b9b9b;
+    box-shadow: 0 0 26px;
+    z-index: 1;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;    
+    margin: 0 auto;
+    color: #1e1e1e;
+    font-family: Montserrat;
+    font-size: 46px;
+    text-align: center;
+    line-height: 57px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 850px ;
+    height: 520px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    margin: 0 auto;
+    width: 850px;
+    height: 35px;
+    margin-bottom: 25px;
+}
+
+input{
+    width: 400px;
+    height: 35px;
+    border-width: 1px;
+    border-color: #9b9b9b;
+    border-radius: 5px;
+}
+
+.row2 {
+    display: inline-flex;
+    margin: 0 auto;
+    width: 850px;
+    height: 275px;
+    margin-bottom: 25px;
+}
+
+textarea {
+    resize: none;
+    width: 850px;
+    height: 275px;
+    border-width: 1px;
+    border-color: #9b9b9b;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+::placeholder {
+    color: #9b9b9b;
+    font-family: Cardo;
+    font-size: 18px;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+#spacing {
+    width: 50px;
+    height: 35px;
+}
+
+#article-image-url {
+    width: 850px;
+    margin-bottom: 25px;
+}
+
+.button-group {
+    display: inline-block;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.button-group button {
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    border: 1px #9b9b9b 100%;
+    border-radius: 50px;
+    color: #1e1e1e 100%;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+#save {
+    float: right;
+    background-color: #ffe3e3;
+}
