@@ -8,6 +8,7 @@
     <title>Document</title>
     <!-- <link href="header.css" rel="stylesheet" /> -->
     <link href="style.css" rel="stylesheet" />
+    <script src="script.js" ></script>
     <!-- <link href="footer.css" rel="stylesheet" /> -->
     <link href="//db.onlinewebfonts.com/c/07689d4eaaa3d530d58826b5d7f84735?family=Montserrat" rel="stylesheet"
     type="text/css" />
@@ -15,8 +16,8 @@
 </head>
 
 <body>
-    <div class="site">
-        <div class="header-container">
+    <div class="site" id="body">
+        <div class="header-container" id="header">
 
             <div class="menu">
                 <nav class="navigation">
@@ -33,13 +34,13 @@
             </div>
 
 
-            <div class="button-box">
-                <button class="button">+ ADD ARTICLE</button>
+            <div class="add-container">
+                <button class="button" id="add">+ ADD ARTICLE</button>
             </div>
 
         </div>
 
-        <div class="article-container">
+        <div class="article-container" id="article-container">
 
             <div class="article-item">
 
@@ -49,7 +50,7 @@
 
                 <div class="article-info">
                     <ul style="list-style-type:none" id="list">
-                        <li>
+                        <li class="info__item">
                             <c href="#">Destination Europe</c>
                         </li>
                         <li>
@@ -61,13 +62,13 @@
                         <li>
                             <space href="#"></space>
                         </li>
-                        <li>
+                        <li class="info__item">
                             <c href="#">Added by</c>
                         </li>
                         <li>
                             <space href="#"></space>
                         </li>
-                        <li>
+                        <li class="info__item">
                             <d href="#">Jonnathan Mercadona</d>
                         </li>
                         <li>
@@ -79,7 +80,7 @@
                         <li>
                             <space href="#"></space>
                         </li>
-                        <li>
+                        <li class="info__item">
                             <c href="#">July 01, 2018</c>
                         </li>
                         <li>
@@ -89,9 +90,9 @@
                 </div>
 
                 <div class="btn-group">
-                    <button class="button2">Delete</button>
+                    <button class="button2" id="delete">Delete</button>
                     <div class="divider"> | </div>
-                    <button class="button2">Edit</button>
+                    <button class="button2" id="edit">Edit</button>
                 </div>
 
                 <div class="article-image">
@@ -173,10 +174,9 @@
 
 
                 <div class="btn-group">
-                    <button class="button2">Delete</button>
+                    <button class="button2" id="delete">Delete</button>
                     <div class="divider"> | </div>
-                    <button class="button2">Edit</button>
-
+                    <button class="button2" id="edit">Edit</button>
                 </div>
 
                 <div class="article-image">
@@ -260,10 +260,9 @@
 
 
                 <div class="btn-group">
-                    <button class="button2">Delete</button>
+                    <button class="button2" id="delete">Delete</button>
                     <div class="divider"> | </div>
-                    <button class="button2">Edit</button>
-
+                    <button class="button2" id="edit">Edit</button>
                 </div>
 
 
@@ -350,10 +349,9 @@
 
 
                 <div class="btn-group">
-                    <button class="button2">Delete</button>
+                    <button class="button2" id="delete">Delete</button>
                     <div class="divider"> | </div>
-                    <button class="button2">Edit</button>
-
+                    <button class="button2" id="edit">Edit</button>
                 </div>
 
 
@@ -439,10 +437,9 @@
 
 
                 <div class="btn-group">
-                    <button class="button2">Delete</button>
+                    <button class="button2" id="delete">Delete</button>
                     <div class="divider"> | </div>
-                    <button class="button2">Edit</button>
-
+                    <button class="button2" id="edit">Edit</button>
                 </div>
 
 

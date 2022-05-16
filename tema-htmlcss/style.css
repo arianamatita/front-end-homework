@@ -27,6 +27,10 @@ body {
     margin-bottom: 130px;
 }
 
+#open-modal{
+    cursor: pointer;
+}
+
 a {
     color: #1e1e1e;
     font-family: Montserrat;
